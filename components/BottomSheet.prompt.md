@@ -1,0 +1,11 @@
+Bottom Sheet — materialized from the Figma component of the same name; use it wherever the source design uses that component.
+
+```jsx
+const { BottomSheet } = window.OCDesignSystem_0d42ed;
+<BottomSheet  />
+```
+
+Props:
+- `showButton`: boolean
+
+Text layers are exposed as `text1…textN`; icon/slot layers as `icon1…iconN` (ReactNode).

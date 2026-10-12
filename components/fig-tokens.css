@@ -1,0 +1,252 @@
+/* Generated from Figma Variables. First mode = :root default.
+   FLOAT tokens are unitless — multiply by 1px in calc() where a length is needed. */
+
+:root {
+  --bg: rgb(237,240,244); /* @kind color */
+  --black: rgb(0,0,0); /* @kind color */
+  --blue-100: rgb(211,228,255); /* @kind color */
+  --blue-200: rgb(167,201,255); /* @kind color */
+  --blue-25: rgb(245,249,255); /* @kind color */
+  --blue-300: rgb(122,173,255); /* @kind color */
+  --blue-400: rgb(78,146,255); /* @kind color */
+  --blue-50-2: rgb(233,241,255); /* @kind color */
+  --blue-500: rgb(34,119,255); /* @kind color */
+  --blue-50: rgb(236,249,255); /* @kind color */
+  --blue-600: rgb(27,95,204); /* @kind color */
+  --blue-700: rgb(20,71,153); /* @kind color */
+  --blue-800: rgb(14,48,102); /* @kind color */
+  --blue-900: rgb(7,24,51); /* @kind color */
+  --blue-tint-15: rgba(0,185,255,0.15); /* @kind color */
+  --border-radius-12: 12;
+  --border-radius-16: 16;
+  --border-radius-20: 20;
+  --border-radius-24: 24;
+  --border-radius-28: 28;
+  --border-radius-32: 32;
+  --border-radius-36: 36;
+  --border-radius-40: 40;
+  --border-radius-4: 4;
+  --border-radius-8: 8;
+  --border-radius-base: 8;
+  --border-radius-full: 9999;
+  --border-radius-large: 12;
+  --border-radius-none: 0;
+  --border-sub: var(--slate-500); /* @kind color */
+  --border: var(--slate-200); /* @kind color */
+  --cobalt-100: rgb(211,240,255); /* @kind color */
+  --cobalt-200: rgb(167,226,255); /* @kind color */
+  --cobalt-25: rgb(242,249,255); /* @kind color */
+  --cobalt-300: rgb(122,211,255); /* @kind color */
+  --cobalt-400: rgb(77,202,255); /* @kind color */
+  --cobalt-500: rgb(0,178,255); /* @kind color */
+  --cobalt-50: rgb(233,247,255); /* @kind color */
+  --cobalt-600: rgb(0,142,204); /* @kind color */
+  --cobalt-700: rgb(0,121,173); /* @kind color */
+  --cobalt-800: rgb(0,81,116); /* @kind color */
+  --cobalt-900: rgb(0,39,58); /* @kind color */
+  --color-white: rgb(255,255,255); /* @kind color */
+  --common-100: rgb(255,255,255); /* @kind color */
+  --cool-neutral-10: rgb(23,23,25); /* @kind color */
+  --cool-neutral-99: rgb(247,247,248); /* @kind color */
+  --divide-2: var(--slate-100-2); /* @kind color */
+  --divide: var(--slate-100); /* @kind color */
+  --family-base: "Pretendard"; /* @kind font */
+  --gray-100: rgb(229,229,229); /* @kind color */
+  --gray-200: rgb(204,204,204); /* @kind color */
+  --gray-25: rgb(250,250,250); /* @kind color */
+  --gray-300: rgb(178,178,178); /* @kind color */
+  --gray-400: rgb(153,153,153); /* @kind color */
+  --gray-500: rgb(128,128,128); /* @kind color */
+  --gray-50: rgb(242,242,242); /* @kind color */
+  --gray-600: rgb(102,102,102); /* @kind color */
+  --gray-700: rgb(77,77,77); /* @kind color */
+  --gray-800: rgb(51,51,51); /* @kind color */
+  --gray-900: rgb(26,26,26); /* @kind color */
+  --green-100: rgb(205,242,227); /* @kind color */
+  --green-200: rgb(155,230,199); /* @kind color */
+  --green-25: rgb(247,253,250); /* @kind color */
+  --green-300: rgb(105,217,170); /* @kind color */
+  --green-400: rgb(55,205,142); /* @kind color */
+  --green-500: rgb(5,192,114); /* @kind color */
+  --green-50: rgb(230,249,241); /* @kind color */
+  --green-600: rgb(4,154,91); /* @kind color */
+  --green-700: rgb(3,115,68); /* @kind color */
+  --green-800: rgb(2,77,46); /* @kind color */
+  --green-900: rgb(1,38,23); /* @kind color */
+  --height-leading-10: 40;
+  --height-leading-11: 44;
+  --height-leading-12: 48;
+  --height-leading-13: 52;
+  --height-leading-3: 12;
+  --height-leading-4: 16;
+  --height-leading-5: 20;
+  --height-leading-6: 24;
+  --height-leading-7: 28;
+  --height-leading-8: 32;
+  --height-leading-9: 36;
+  --height-leading-adjust: "160%";
+  --height-leading-base: "140%";
+  --icon-disabled: var(--slate-300); /* @kind color */
+  --label-normal: var(--cool-neutral-10); /* @kind color */
+  --leading-11: 44;
+  --leading-4: 16;
+  --leading-5: 20;
+  --leading-6: 24;
+  --leading-7: 28;
+  --leading-8: 32;
+  --neongreen-500: rgb(0,230,0); /* @kind color */
+  --neongreen-600: rgb(0,181,5); /* @kind color */
+  --opacity-12: 12; /* @kind other */
+  --purple-100: rgb(238,220,252); /* @kind color */
+  --purple-200: rgb(221,185,249); /* @kind color */
+  --purple-25: rgb(250,246,254); /* @kind color */
+  --purple-300: rgb(203,150,245); /* @kind color */
+  --purple-400: rgb(186,115,242); /* @kind color */
+  --purple-500: rgb(169,80,239); /* @kind color */
+  --purple-50: rgb(246,237,253); /* @kind color */
+  --purple-600: rgb(135,64,191); /* @kind color */
+  --purple-700: rgb(101,48,143); /* @kind color */
+  --purple-800: rgb(68,32,96); /* @kind color */
+  --purple-900: rgb(34,16,48); /* @kind color */
+  --red-100: rgb(252,221,220); /* @kind color */
+  --red-200: rgb(249,186,185); /* @kind color */
+  --red-25: rgb(254,246,246); /* @kind color */
+  --red-300: rgb(245,152,150); /* @kind color */
+  --red-400: rgb(242,117,115); /* @kind color */
+  --red-50-2: rgb(253,238,237); /* @kind color */
+  --red-500: rgb(239,83,80); /* @kind color */
+  --red-50: rgb(255,66,66); /* @kind color */
+  --red-600: rgb(191,66,64); /* @kind color */
+  --red-60: rgb(255,99,99); /* @kind color */
+  --red-700: rgb(143,50,48); /* @kind color */
+  --red-800: rgb(96,33,32); /* @kind color */
+  --red-900: rgb(48,17,16); /* @kind color */
+  --rounded-large: 12;
+  --rounded-medium: 8;
+  --rounded-xlarge: 16;
+  --scale-text-2xlarge: 24;
+  --scale-text-4xlarge: 36;
+  --scale-text-5xlarge: 48;
+  --scale-text-base: 16;
+  --scale-text-small: 14;
+  --scale-text-xlarge: 20;
+  --scale-text-xsmall: 12;
+  --size-text-10: 10;
+  --size-text-11: 11;
+  --size-text-12: 12;
+  --size-text-13: 13;
+  --size-text-14: 14;
+  --size-text-15: 15;
+  --size-text-16: 16;
+  --size-text-18: 18;
+  --size-text-20: 20;
+  --size-text-24: 24;
+  --size-text-32: 32;
+  --sizing-0: 0; /* @kind spacing */
+  --sizing-10: 40; /* @kind spacing */
+  --sizing-15: 6; /* @kind spacing */
+  --sizing-1: 4; /* @kind spacing */
+  --sizing-25: 10; /* @kind spacing */
+  --sizing-2: 8; /* @kind spacing */
+  --sizing-3: 12; /* @kind spacing */
+  --sizing-4: 16; /* @kind spacing */
+  --sizing-6: 24; /* @kind spacing */
+  --sizing-8: 32; /* @kind spacing */
+  --slate-100-2: rgb(226,229,233); /* @kind color */
+  --slate-100-3: rgb(233,239,246); /* @kind color */
+  --slate-100: rgb(226,229,233); /* @kind color */
+  --slate-10: rgb(249,250,251); /* @kind color */
+  --slate-200-2: rgb(215,223,233); /* @kind color */
+  --slate-200: rgb(219,222,227); /* @kind color */
+  --slate-300-2: rgb(175,186,202); /* @kind color */
+  --slate-300: rgb(188,192,198); /* @kind color */
+  --slate-30: rgb(244,246,251); /* @kind color */
+  --slate-400: rgb(136,151,174); /* @kind color */
+  --slate-50-2: rgb(240,243,249); /* @kind color */
+  --slate-500-2: rgb(94,113,141); /* @kind color */
+  --slate-500: rgb(113,118,128); /* @kind color */
+  --slate-50: rgb(248,249,251); /* @kind color */
+  --slate-600-2: rgb(69,84,104); /* @kind color */
+  --slate-600: rgb(75,81,91); /* @kind color */
+  --slate-700: rgb(61,74,92); /* @kind color */
+  --slate-800-2: rgb(29,32,39); /* @kind color */
+  --slate-800-3: rgb(45,54,67); /* @kind color */
+  --slate-800: rgb(29,32,39); /* @kind color */
+  --slate-900-2: rgb(28,34,43); /* @kind color */
+  --slate-900: rgb(21,24,30); /* @kind color */
+  --slate-black: rgb(0,0,0); /* @kind color */
+  --slate-tint-15: rgba(113,118,128,0.15); /* @kind color */
+  --slate-tint-20: rgba(113,118,128,0.2); /* @kind color */
+  --slate-white: rgb(255,255,255); /* @kind color */
+  --space-10: 40;
+  --space-12: 48;
+  --space-16: 64;
+  --space-1: 4;
+  --space-20: 80;
+  --space-25: 10;
+  --space-28: 112;
+  --space-2: 8;
+  --space-32: 128;
+  --space-3: 12;
+  --space-4: 16;
+  --space-6: 24;
+  --space-7: 28;
+  --space-8: 32;
+  --static-white: var(--common-100); /* @kind color */
+  --status-negative: var(--red-50); /* @kind color */
+  --surface-highlight-secondary: var(--blue-50); /* @kind color */
+  --surface-slate-secondary: var(--slate-100); /* @kind color */
+  --surface-sub: var(--slate-50); /* @kind color */
+  --surface-success-primary: var(--neongreen-500); /* @kind color */
+  --surface: var(--slate-white); /* @kind color */
+  --text-disabled: var(--slate-300); /* @kind color */
+  --text-on: var(--slate-white); /* @kind color */
+  --text-secondary: var(--slate-600); /* @kind color */
+  --text-sub: var(--slate-500); /* @kind color */
+  --text: var(--slate-900); /* @kind color */
+  --typeface-base: "imweb Sans";
+  --typeface-code: "RobotoMono";
+  --typeface-large: "Pretendard";
+  --weight-font-bold-2: 700;
+  --weight-font-bold: 700;
+  --weight-font-extralight: 200;
+  --weight-font-medium: 500;
+  --weight-font-normal: 400;
+  --weight-font-regular: 400;
+  --weight-font-semibold-2: 600;
+  --weight-font-semibold: 600;
+  --white: rgb(255,255,255); /* @kind color */
+  --yellow-100: rgb(255,245,219); /* @kind color */
+  --yellow-200: rgb(255,235,183); /* @kind color */
+  --yellow-25: rgb(255,252,245); /* @kind color */
+  --yellow-300: rgb(255,225,147); /* @kind color */
+  --yellow-400: rgb(255,215,111); /* @kind color */
+  --yellow-500: rgb(255,205,75); /* @kind color */
+  --yellow-50: rgb(255,250,237); /* @kind color */
+  --yellow-600: rgb(204,164,60); /* @kind color */
+  --yellow-700: rgb(153,123,45); /* @kind color */
+  --yellow-800: rgb(102,82,30); /* @kind color */
+  --yellow-900: rgb(51,41,15); /* @kind color */
+}
+
+:root[data-theme="dark"], .dark {
+  --bg: var(--slate-black); /* @kind color */
+  --border-sub: var(--slate-600); /* @kind color */
+  --border: var(--slate-tint-20); /* @kind color */
+  --divide-2: var(--slate-800-2); /* @kind color */
+  --divide: var(--slate-800); /* @kind color */
+  --icon-disabled: var(--slate-600); /* @kind color */
+  --label-normal: var(--cool-neutral-99); /* @kind color */
+  --static-white: var(--common-100); /* @kind color */
+  --status-negative: var(--red-60); /* @kind color */
+  --surface-highlight-secondary: var(--blue-tint-15); /* @kind color */
+  --surface-slate-secondary: var(--slate-tint-15); /* @kind color */
+  --surface-sub: var(--slate-800); /* @kind color */
+  --surface-success-primary: var(--neongreen-600); /* @kind color */
+  --surface: var(--slate-900); /* @kind color */
+  --text-disabled: var(--slate-600); /* @kind color */
+  --text-on: var(--slate-white); /* @kind color */
+  --text-secondary: var(--slate-300); /* @kind color */
+  --text-sub: var(--slate-500); /* @kind color */
+  --text: var(--slate-white); /* @kind color */
+}

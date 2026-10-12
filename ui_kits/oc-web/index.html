@@ -1,0 +1,42 @@
+<!-- @dsCard group="OC Web" viewport="1440x900" name="OC web — OC PDF" subtitle="Left navigation, header, tabbed file table, upload popup, toast" -->
+<!DOCTYPE html>
+<html lang="ko"><head><meta charset="utf-8"><title>OC — 내 PDF</title>
+<link rel="stylesheet" href="../../styles.css">
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+<style>body{margin:0;background:var(--surface-sub);font-family:var(--font-sans)}</style>
+</head><body><div id="root"></div>
+<script type="text/babel" src="Screens.jsx"></script>
+<script type="text/babel">
+const TITLES = { download: '다운받은 책', ocPDF: 'OC PDF', quiz: '내 문제은행', note: '내 오답노트', scheduler: '스케줄러', myPage: '마이페이지' };
+function App() {
+  const [active, setActive] = React.useState(localStorage.getItem('oc-kit-nav') || 'ocPDF');
+  const [rows, setRows] = React.useState(['a', 'b', 'c', 'd']);
+  const [upload, setUpload] = React.useState(false);
+  const [toast, setToast] = React.useState(null);
+  React.useEffect(() => { localStorage.setItem('oc-kit-nav', active); }, [active]);
+  const flash = (c, t) => { setToast({ c, t }); setTimeout(() => setToast(null), 2200); };
+  const empty = active === 'note' || rows.length === 0;
+  return (
+    <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+      <Pick n="Header" type="초/중/고/n수" style={{ width: '100%' }} />
+      <div style={{ display: 'flex', flex: 1, minHeight: 0 }}>
+        <SideNav active={active} onPick={setActive} />
+        <main style={{ flex: 1, padding: '28px 40px', display: 'flex', flexDirection: 'column', gap: 20, minWidth: 0 }}>
+          <Pick n="Breadcrumb" depth="depth2" text1="내 책장" text2={TITLES[active]} />
+          <div style={{ font: '700 24px/32px var(--font-sans)', color: 'var(--text)' }}>{TITLES[active]}</div>
+          <Toolbar onUpload={() => setUpload(true)} />
+          {empty ? <EmptyView onUpload={() => setUpload(true)} /> :
+            <FileTable rows={rows} onDelete={r => { setRows(rs => rs.filter(x => x !== r)); flash('delete', '파일이 삭제되었어요'); }} />}
+          {!empty && <div style={{ display: 'flex', justifyContent: 'center' }}><Pick n="PaginationDefault" focus="first" /></div>}
+        </main>
+      </div>
+      {upload && <UploadPopup onClose={() => setUpload(false)} onDone={() => { setUpload(false); setRows(rs => [...rs, 'n' + Date.now()]); flash('success', 'PDF가 저장되었어요'); }} />}
+      {toast && <div style={{ position: 'fixed', left: '50%', bottom: 40, transform: 'translateX(-50%)', zIndex: 20 }}><Pick n="Toast" case={toast.c} size="md" text2={toast.t} /></div>}
+    </div>
+  );
+}
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+</script></body></html>

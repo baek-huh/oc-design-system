@@ -1,0 +1,729 @@
+import { IconIcArrowRight } from './IconIcArrowRight.jsx';
+import { IconIcCheck } from './IconIcCheck.jsx';
+
+// figma node: 4606:929 Item/Menu (18 variants)
+const __venc = (v) => String(v).replace(/[%|=]/g, encodeURIComponent);
+const __vkey = (p) => "type=" + __venc(p.type) + '|' + "state=" + __venc(p.state) + '|' + "checked=" + __venc(p.checked);
+
+export function ItemMenu2(_p = {}) {
+  const props = { ..._p, type: _p.type ?? "default", state: _p.state ?? "default", checked: _p.checked ?? true };
+  const __body0 = () => (
+    <div className={props.className} style={{
+      width: 224,
+      overflow: "hidden",
+      borderRadius: 4,
+      backgroundColor: "rgb(255,255,255)",
+      display: "flex",
+      flexDirection: "row",
+      gap: 10,
+      padding: "8px 10px 8px 10px",
+      alignItems: "center",
+      flexWrap: "nowrap",
+      boxSizing: "border-box",
+      position: "relative",
+      ...props.style,
+    }}>
+      <div style={{
+        position: "relative",
+        display: "flex",
+        flexDirection: "row",
+        gap: 8,
+        alignItems: "center",
+        flexWrap: "nowrap",
+        flexShrink: 0,
+        alignSelf: "stretch",
+      }}>
+        <div style={{
+            position: "relative",
+            width: 14,
+            height: 14,
+            flexShrink: 0,
+          }}>{props.icon1 ?? <IconIcCheck style={{ transform: "scale(0.583, 0.583)", transformOrigin: "0 0" }} />}</div>
+        <span style={{
+          position: "relative",
+          fontFamily: "Pretendard, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+          fontWeight: 400,
+          fontSize: 12,
+          whiteSpace: "nowrap",
+          lineHeight: "18px",
+          color: "rgb(97,97,97)",
+          flexShrink: 0,
+          alignSelf: "stretch",
+        }}>{props.text1 ?? "메뉴"}</span>
+      </div>
+    </div>
+  );
+  const __body1 = () => (
+    <div className={props.className} style={{
+      width: 224,
+      overflow: "hidden",
+      borderRadius: 4,
+      backgroundColor: "rgb(255,255,255)",
+      display: "flex",
+      flexDirection: "row",
+      gap: 10,
+      padding: "8px 10px 8px 10px",
+      alignItems: "center",
+      flexWrap: "nowrap",
+      boxSizing: "border-box",
+      position: "relative",
+      ...props.style,
+    }}>
+      <div style={{
+        position: "relative",
+        display: "flex",
+        flexDirection: "row",
+        gap: 8,
+        alignItems: "center",
+        flexWrap: "nowrap",
+        flexShrink: 0,
+        alignSelf: "stretch",
+      }}>
+        <div style={{
+            position: "relative",
+            width: 14,
+            height: 14,
+            flexShrink: 0,
+          }}>{props.icon1 ?? <IconIcCheck style={{ transform: "scale(0.583, 0.583)", transformOrigin: "0 0" }} />}</div>
+        <span style={{
+          position: "relative",
+          fontFamily: "Pretendard, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+          fontWeight: 400,
+          fontSize: 12,
+          whiteSpace: "nowrap",
+          lineHeight: "18px",
+          color: "rgb(189,189,189)",
+          flexShrink: 0,
+          alignSelf: "stretch",
+        }}>{props.text1 ?? "메뉴"}</span>
+      </div>
+    </div>
+  );
+  const __body2 = () => (
+    <div className={props.className} style={{
+      width: 224,
+      overflow: "hidden",
+      borderRadius: 4,
+      backgroundColor: "rgb(245,245,245)",
+      display: "flex",
+      flexDirection: "row",
+      gap: 10,
+      padding: "8px 10px 8px 10px",
+      alignItems: "center",
+      flexWrap: "nowrap",
+      boxSizing: "border-box",
+      position: "relative",
+      ...props.style,
+    }}>
+      <div style={{
+        position: "relative",
+        display: "flex",
+        flexDirection: "row",
+        gap: 8,
+        alignItems: "center",
+        flexWrap: "nowrap",
+        flexShrink: 0,
+        alignSelf: "stretch",
+      }}>
+        <div style={{
+            position: "relative",
+            width: 14,
+            height: 14,
+            flexShrink: 0,
+          }}>{props.icon1 ?? <IconIcCheck style={{ transform: "scale(0.583, 0.583)", transformOrigin: "0 0" }} />}</div>
+        <span style={{
+          position: "relative",
+          fontFamily: "Pretendard, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+          fontWeight: 400,
+          fontSize: 12,
+          whiteSpace: "nowrap",
+          lineHeight: "18px",
+          color: "rgb(97,97,97)",
+          flexShrink: 0,
+          alignSelf: "stretch",
+        }}>{props.text1 ?? "메뉴"}</span>
+      </div>
+    </div>
+  );
+  const __body3 = () => (
+    <div className={props.className} style={{
+      width: 224,
+      overflow: "hidden",
+      borderRadius: 4,
+      backgroundColor: "rgb(255,255,255)",
+      display: "flex",
+      flexDirection: "row",
+      padding: "8px 10px 8px 10px",
+      justifyContent: "space-between",
+      alignItems: "center",
+      flexWrap: "nowrap",
+      boxSizing: "border-box",
+      position: "relative",
+      ...props.style,
+    }}>
+      <div style={{
+        position: "relative",
+        display: "flex",
+        flexDirection: "row",
+        gap: 8,
+        alignItems: "center",
+        flexWrap: "nowrap",
+        flexShrink: 0,
+        alignSelf: "stretch",
+      }}>
+        <div style={{
+            position: "relative",
+            width: 14,
+            height: 14,
+            flexShrink: 0,
+          }}>{props.icon1 ?? <IconIcCheck style={{ transform: "scale(0.583, 0.583)", transformOrigin: "0 0" }} />}</div>
+        <span style={{
+          position: "relative",
+          fontFamily: "Pretendard, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+          fontWeight: 400,
+          fontSize: 12,
+          whiteSpace: "nowrap",
+          lineHeight: "18px",
+          color: "rgb(97,97,97)",
+          flexShrink: 0,
+          alignSelf: "stretch",
+        }}>{props.text1 ?? "메뉴"}</span>
+      </div>
+      <span style={{
+        position: "relative",
+        fontFamily: "Pretendard, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        fontWeight: 400,
+        fontSize: 12,
+        whiteSpace: "nowrap",
+        lineHeight: "18px",
+        color: "rgb(189,189,189)",
+        flexShrink: 0,
+        alignSelf: "stretch",
+      }}>{props.text2 ?? "단축키"}</span>
+    </div>
+  );
+  const __body4 = () => (
+    <div className={props.className} style={{
+      width: 224,
+      overflow: "hidden",
+      borderRadius: 4,
+      backgroundColor: "rgb(255,255,255)",
+      display: "flex",
+      flexDirection: "row",
+      padding: "8px 10px 8px 10px",
+      justifyContent: "space-between",
+      alignItems: "center",
+      flexWrap: "nowrap",
+      boxSizing: "border-box",
+      position: "relative",
+      ...props.style,
+    }}>
+      <div style={{
+        position: "relative",
+        display: "flex",
+        flexDirection: "row",
+        gap: 8,
+        alignItems: "center",
+        flexWrap: "nowrap",
+        flexShrink: 0,
+        alignSelf: "stretch",
+      }}>
+        <div style={{
+            position: "relative",
+            width: 14,
+            height: 14,
+            flexShrink: 0,
+          }}>{props.icon1 ?? <IconIcCheck style={{ transform: "scale(0.583, 0.583)", transformOrigin: "0 0" }} />}</div>
+        <span style={{
+          position: "relative",
+          fontFamily: "Pretendard, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+          fontWeight: 400,
+          fontSize: 12,
+          whiteSpace: "nowrap",
+          lineHeight: "18px",
+          color: "rgb(189,189,189)",
+          flexShrink: 0,
+          alignSelf: "stretch",
+        }}>{props.text1 ?? "메뉴"}</span>
+      </div>
+      <span style={{
+        position: "relative",
+        fontFamily: "Pretendard, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        fontWeight: 400,
+        fontSize: 12,
+        whiteSpace: "nowrap",
+        lineHeight: "18px",
+        color: "rgb(189,189,189)",
+        flexShrink: 0,
+        alignSelf: "stretch",
+      }}>{props.text2 ?? "단축키"}</span>
+    </div>
+  );
+  const __body5 = () => (
+    <div className={props.className} style={{
+      width: 224,
+      overflow: "hidden",
+      borderRadius: 4,
+      backgroundColor: "rgb(245,245,245)",
+      display: "flex",
+      flexDirection: "row",
+      padding: "8px 10px 8px 10px",
+      justifyContent: "space-between",
+      alignItems: "center",
+      flexWrap: "nowrap",
+      boxSizing: "border-box",
+      position: "relative",
+      ...props.style,
+    }}>
+      <div style={{
+        position: "relative",
+        display: "flex",
+        flexDirection: "row",
+        gap: 8,
+        alignItems: "center",
+        flexWrap: "nowrap",
+        flexShrink: 0,
+        alignSelf: "stretch",
+      }}>
+        <div style={{
+            position: "relative",
+            width: 14,
+            height: 14,
+            flexShrink: 0,
+          }}>{props.icon1 ?? <IconIcCheck style={{ transform: "scale(0.583, 0.583)", transformOrigin: "0 0" }} />}</div>
+        <span style={{
+          position: "relative",
+          fontFamily: "Pretendard, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+          fontWeight: 400,
+          fontSize: 12,
+          whiteSpace: "nowrap",
+          lineHeight: "18px",
+          color: "rgb(97,97,97)",
+          flexShrink: 0,
+          alignSelf: "stretch",
+        }}>{props.text1 ?? "메뉴"}</span>
+      </div>
+      <span style={{
+        position: "relative",
+        fontFamily: "Pretendard, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        fontWeight: 400,
+        fontSize: 12,
+        whiteSpace: "nowrap",
+        lineHeight: "18px",
+        color: "rgb(189,189,189)",
+        flexShrink: 0,
+        alignSelf: "stretch",
+      }}>{props.text2 ?? "단축키"}</span>
+    </div>
+  );
+  const __body6 = () => (
+    <div className={props.className} style={{
+      width: 224,
+      overflow: "hidden",
+      borderRadius: 4,
+      backgroundColor: "rgb(255,255,255)",
+      display: "flex",
+      flexDirection: "row",
+      padding: "8px 10px 8px 10px",
+      justifyContent: "space-between",
+      alignItems: "center",
+      flexWrap: "nowrap",
+      boxSizing: "border-box",
+      position: "relative",
+      ...props.style,
+    }}>
+      <span style={{
+        position: "relative",
+        fontFamily: "Pretendard, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        fontWeight: 400,
+        fontSize: 12,
+        whiteSpace: "nowrap",
+        lineHeight: "18px",
+        color: "rgb(97,97,97)",
+        flexShrink: 0,
+        alignSelf: "stretch",
+      }}>{props.text1 ?? "메뉴"}</span>
+      <div style={{
+          position: "relative",
+          width: 14,
+          height: 14,
+          flexShrink: 0,
+        }}>{props.icon1 ?? <IconIcArrowRight small={true} style={{ transform: "scale(0.583, 0.583)", transformOrigin: "0 0" }} />}</div>
+    </div>
+  );
+  const __body7 = () => (
+    <div className={props.className} style={{
+      width: 224,
+      overflow: "hidden",
+      borderRadius: 4,
+      backgroundColor: "rgb(255,255,255)",
+      display: "flex",
+      flexDirection: "row",
+      gap: 10,
+      padding: "8px 10px 8px 10px",
+      alignItems: "center",
+      flexWrap: "nowrap",
+      boxSizing: "border-box",
+      position: "relative",
+      ...props.style,
+    }}>
+      <span style={{
+        position: "relative",
+        fontFamily: "Pretendard, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        fontWeight: 400,
+        fontSize: 12,
+        whiteSpace: "nowrap",
+        lineHeight: "18px",
+        color: "rgb(97,97,97)",
+        flexShrink: 0,
+        alignSelf: "stretch",
+      }}>{props.text1 ?? "Danger Zone"}</span>
+    </div>
+  );
+  const __body8 = () => (
+    <div className={props.className} style={{
+      width: 224,
+      overflow: "hidden",
+      borderRadius: 4,
+      backgroundColor: "rgb(255,255,255)",
+      display: "flex",
+      flexDirection: "row",
+      gap: 10,
+      padding: "8px 10px 8px 10px",
+      alignItems: "center",
+      flexWrap: "nowrap",
+      boxSizing: "border-box",
+      position: "relative",
+      ...props.style,
+    }}>
+      <span style={{
+        position: "relative",
+        fontFamily: "Pretendard, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        fontWeight: 400,
+        fontSize: 12,
+        whiteSpace: "nowrap",
+        lineHeight: "18px",
+        color: "rgb(239,83,80)",
+        flexShrink: 0,
+        alignSelf: "stretch",
+      }}>{props.text1 ?? "Danger Zone"}</span>
+    </div>
+  );
+  const __body9 = () => (
+    <div className={props.className} style={{
+      width: 224,
+      overflow: "hidden",
+      borderRadius: 4,
+      backgroundColor: "rgb(255,255,255)",
+      display: "flex",
+      flexDirection: "row",
+      padding: "8px 10px 8px 10px",
+      justifyContent: "space-between",
+      alignItems: "center",
+      flexWrap: "nowrap",
+      boxSizing: "border-box",
+      position: "relative",
+      ...props.style,
+    }}>
+      <span style={{
+        position: "relative",
+        fontFamily: "Pretendard, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        fontWeight: 400,
+        fontSize: 12,
+        whiteSpace: "nowrap",
+        lineHeight: "18px",
+        color: "rgb(189,189,189)",
+        flexShrink: 0,
+        alignSelf: "stretch",
+      }}>{props.text1 ?? "메뉴"}</span>
+      <div style={{
+          position: "relative",
+          width: 14,
+          height: 14,
+          flexShrink: 0,
+        }}>{props.icon1 ?? <IconIcArrowRight small={true} style={{ transform: "scale(0.583, 0.583)", transformOrigin: "0 0" }} />}</div>
+    </div>
+  );
+  const __body10 = () => (
+    <div className={props.className} style={{
+      width: 224,
+      overflow: "hidden",
+      borderRadius: 4,
+      backgroundColor: "rgb(245,245,245)",
+      display: "flex",
+      flexDirection: "row",
+      padding: "8px 10px 8px 10px",
+      justifyContent: "space-between",
+      alignItems: "center",
+      flexWrap: "nowrap",
+      boxSizing: "border-box",
+      position: "relative",
+      ...props.style,
+    }}>
+      <span style={{
+        position: "relative",
+        fontFamily: "Pretendard, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        fontWeight: 400,
+        fontSize: 12,
+        whiteSpace: "nowrap",
+        lineHeight: "18px",
+        color: "rgb(97,97,97)",
+        flexShrink: 0,
+        alignSelf: "stretch",
+      }}>{props.text1 ?? "메뉴"}</span>
+      <div style={{
+          position: "relative",
+          width: 14,
+          height: 14,
+          flexShrink: 0,
+        }}>{props.icon1 ?? <IconIcArrowRight small={true} style={{ transform: "scale(0.583, 0.583)", transformOrigin: "0 0" }} />}</div>
+    </div>
+  );
+  const __body11 = () => (
+    <div className={props.className} style={{
+      width: 224,
+      overflow: "hidden",
+      borderRadius: 4,
+      backgroundColor: "rgb(255,255,255)",
+      display: "flex",
+      flexDirection: "row",
+      padding: "8px 10px 8px 10px",
+      justifyContent: "space-between",
+      alignItems: "center",
+      flexWrap: "nowrap",
+      boxSizing: "border-box",
+      position: "relative",
+      ...props.style,
+    }}>
+      <span style={{
+        position: "relative",
+        fontFamily: "Pretendard, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        fontWeight: 400,
+        fontSize: 12,
+        whiteSpace: "nowrap",
+        lineHeight: "18px",
+        color: "rgb(97,97,97)",
+        flexShrink: 0,
+        alignSelf: "stretch",
+      }}>{props.text1 ?? "메뉴"}</span>
+      <span style={{
+        position: "relative",
+        fontFamily: "Pretendard, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        fontWeight: 400,
+        fontSize: 12,
+        whiteSpace: "nowrap",
+        lineHeight: "18px",
+        color: "rgb(189,189,189)",
+        flexShrink: 0,
+        alignSelf: "stretch",
+      }}>{props.text2 ?? "단축키"}</span>
+    </div>
+  );
+  const __body12 = () => (
+    <div className={props.className} style={{
+      width: 224,
+      overflow: "hidden",
+      borderRadius: 4,
+      backgroundColor: "rgb(255,255,255)",
+      display: "flex",
+      flexDirection: "row",
+      padding: "8px 10px 8px 10px",
+      justifyContent: "space-between",
+      alignItems: "center",
+      flexWrap: "nowrap",
+      boxSizing: "border-box",
+      position: "relative",
+      ...props.style,
+    }}>
+      <span style={{
+        position: "relative",
+        fontFamily: "Pretendard, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        fontWeight: 400,
+        fontSize: 12,
+        whiteSpace: "nowrap",
+        lineHeight: "18px",
+        color: "rgb(189,189,189)",
+        flexShrink: 0,
+        alignSelf: "stretch",
+      }}>{props.text1 ?? "메뉴"}</span>
+      <span style={{
+        position: "relative",
+        fontFamily: "Pretendard, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        fontWeight: 400,
+        fontSize: 12,
+        whiteSpace: "nowrap",
+        lineHeight: "18px",
+        color: "rgb(189,189,189)",
+        flexShrink: 0,
+        alignSelf: "stretch",
+      }}>{props.text2 ?? "단축키"}</span>
+    </div>
+  );
+  const __body13 = () => (
+    <div className={props.className} style={{
+      width: 224,
+      overflow: "hidden",
+      borderRadius: 4,
+      backgroundColor: "rgb(245,245,245)",
+      display: "flex",
+      flexDirection: "row",
+      padding: "8px 10px 8px 10px",
+      justifyContent: "space-between",
+      alignItems: "center",
+      flexWrap: "nowrap",
+      boxSizing: "border-box",
+      position: "relative",
+      ...props.style,
+    }}>
+      <span style={{
+        position: "relative",
+        fontFamily: "Pretendard, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        fontWeight: 400,
+        fontSize: 12,
+        whiteSpace: "nowrap",
+        lineHeight: "18px",
+        color: "rgb(97,97,97)",
+        flexShrink: 0,
+        alignSelf: "stretch",
+      }}>{props.text1 ?? "메뉴"}</span>
+      <span style={{
+        position: "relative",
+        fontFamily: "Pretendard, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        fontWeight: 400,
+        fontSize: 12,
+        whiteSpace: "nowrap",
+        lineHeight: "18px",
+        color: "rgb(189,189,189)",
+        flexShrink: 0,
+        alignSelf: "stretch",
+      }}>{props.text2 ?? "단축키"}</span>
+    </div>
+  );
+  const __body14 = () => (
+    <div className={props.className} style={{
+      width: 224,
+      overflow: "hidden",
+      borderRadius: 4,
+      backgroundColor: "rgb(255,255,255)",
+      display: "flex",
+      flexDirection: "row",
+      gap: 10,
+      padding: "8px 10px 8px 10px",
+      alignItems: "center",
+      flexWrap: "nowrap",
+      boxSizing: "border-box",
+      position: "relative",
+      ...props.style,
+    }}>
+      <span style={{
+        position: "relative",
+        fontFamily: "Pretendard, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        fontWeight: 400,
+        fontSize: 12,
+        whiteSpace: "nowrap",
+        lineHeight: "18px",
+        color: "rgb(97,97,97)",
+        flexShrink: 0,
+        alignSelf: "stretch",
+      }}>{props.text1 ?? "메뉴"}</span>
+    </div>
+  );
+  const __body15 = () => (
+    <div className={props.className} style={{
+      width: 224,
+      overflow: "hidden",
+      borderRadius: 4,
+      backgroundColor: "rgb(255,255,255)",
+      display: "flex",
+      flexDirection: "row",
+      gap: 10,
+      padding: "8px 10px 8px 10px",
+      alignItems: "center",
+      flexWrap: "nowrap",
+      boxSizing: "border-box",
+      position: "relative",
+      ...props.style,
+    }}>
+      <span style={{
+        position: "relative",
+        fontFamily: "Pretendard, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        fontWeight: 400,
+        fontSize: 12,
+        whiteSpace: "nowrap",
+        lineHeight: "18px",
+        color: "rgb(189,189,189)",
+        flexShrink: 0,
+        alignSelf: "stretch",
+      }}>{props.text1 ?? "메뉴"}</span>
+    </div>
+  );
+  const __body16 = () => (
+    <div className={props.className} style={{
+      width: 224,
+      overflow: "hidden",
+      borderRadius: 4,
+      backgroundColor: "rgb(245,245,245)",
+      display: "flex",
+      flexDirection: "row",
+      gap: 10,
+      padding: "8px 10px 8px 10px",
+      alignItems: "center",
+      flexWrap: "nowrap",
+      boxSizing: "border-box",
+      position: "relative",
+      ...props.style,
+    }}>
+      <span style={{
+        position: "relative",
+        fontFamily: "Pretendard, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        fontWeight: 400,
+        fontSize: 12,
+        whiteSpace: "nowrap",
+        lineHeight: "18px",
+        color: "rgb(97,97,97)",
+        flexShrink: 0,
+        alignSelf: "stretch",
+      }}>{props.text1 ?? "메뉴"}</span>
+    </div>
+  );
+  const __impls = {
+    // figma: Type=Default, State=Default, Checked=True
+    "type=default|state=default|checked=true": __body0,
+    // figma: Type=Default, State=Disabled, Checked=True
+    "type=default|state=disabled|checked=true": __body1,
+    // figma: Type=Default, State=Hover/Pressed, Checked=True
+    "type=default|state=hover/pressed|checked=true": __body2,
+    // figma: Type=Keyboard, State=Default, Checked=True
+    "type=keyboard|state=default|checked=true": __body3,
+    // figma: Type=Keyboard, State=Disabled, Checked=True
+    "type=keyboard|state=disabled|checked=true": __body4,
+    // figma: Type=Keyboard, State=Hover/Pressed, Checked=True
+    "type=keyboard|state=hover/pressed|checked=true": __body5,
+    // figma: Type=Menu Indicator, State=Default, Checked=False
+    "type=menu indicator|state=default|checked=false": __body6,
+    // figma: Type=Danger Zone, State=Default, Checked=False
+    "type=danger zone|state=default|checked=false": __body7,
+    // figma: Type=Danger Zone, State=Hover/Pressed, Checked=False
+    "type=danger zone|state=hover/pressed|checked=false": __body8,
+    // figma: Type=Danger Zone, State=Disabled, Checked=False
+    "type=danger zone|state=disabled|checked=false": __body8,
+    // figma: Type=Menu Indicator, State=Disabled, Checked=False
+    "type=menu indicator|state=disabled|checked=false": __body9,
+    // figma: Type=Menu Indicator, State=Hover/Pressed, Checked=False
+    "type=menu indicator|state=hover/pressed|checked=false": __body10,
+    // figma: Type=Keyboard, State=Default, Checked=False
+    "type=keyboard|state=default|checked=false": __body11,
+    // figma: Type=Keyboard, State=Disabled, Checked=False
+    "type=keyboard|state=disabled|checked=false": __body12,
+    // figma: Type=Keyboard, State=Hover/Pressed, Checked=False
+    "type=keyboard|state=hover/pressed|checked=false": __body13,
+    // figma: Type=Default, State=Default, Checked=False
+    "type=default|state=default|checked=false": __body14,
+    // figma: Type=Default, State=Disabled, Checked=False
+    "type=default|state=disabled|checked=false": __body15,
+    // figma: Type=Default, State=Hover/Pressed, Checked=False
+    "type=default|state=hover/pressed|checked=false": __body16,
+  };
+  return (__impls[__vkey(props)] ?? __body0)();
+}
+export default ItemMenu2;
